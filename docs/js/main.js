@@ -57,6 +57,7 @@ window.addEventListener('DOMContentLoaded', async(event) => {
     await user.update() 
     console.debug(await user.gets())
     console.debug(await user.get())
+    console.debug(await user.where())
     await user.delete() 
     console.debug(await user.gets())
 });
